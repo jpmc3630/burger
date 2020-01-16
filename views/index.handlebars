@@ -1,0 +1,9 @@
+<h1>Burgers</h1>
+
+
+{{#each all }}
+  <div style="background-color:lightgray; padding: 20px;">
+      {{id}}.{{burger_name}}
+        <button class="devour-button" data-value={{id}}>Devour</button>
+  </div>
+{{/each}}
